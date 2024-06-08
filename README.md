@@ -19,10 +19,9 @@ This project was created within the Uniswap Hooks incubator.
 
 Levery brings several advantages to this simulation:
 
-1. **Regulatory Compliance**: Designed with stringent AML and KYC frameworks, Levery enables financial institutions to participate in DeFi without compromising on compliance. This ensures that all operations on the platform meet global regulatory standards, making it a viable and attractive option for institutional investors.
-2. **Elimination of Counterparty Risk**: Levery’s decentralized nature eliminates the counterparty risk associated with centralized exchanges (CEXs). By removing the need to trust a single entity, Levery ensures that transactions are secure and transparent, addressing concerns raised by the history of fraud and insolvency seen in some CEXs, such as the collapse of FTX.
-3. **Mitigation of Impermanent Loss and Toxic Arbitrage**: Levery enhances profitability for liquidity providers by leveraging Uniswap V4's hooks to implement dynamic fees based on real-time data from price feed oracles. These oracles supply crucial market price information, allowing for precise adjustments of dynamic fees to maintain fair pricing and mitigate toxic arbitrage risks. This mechanism optimizes returns on investments for liquidity providers and significantly reduces the impact of impermanent loss by ensuring that pool prices reflect current market conditions.
-4. **Secure and Transparent Environment**: The use of comprehensive identity checks and permission management systems guarantees a secure trading environment where all participants are verified. This transparency builds trust and facilitates smoother transactions, attracting more institutional participants to the platform.
+1. **Mitigation of Impermanent Loss and Toxic Arbitrage**: Levery enhances profitability for liquidity providers by leveraging Uniswap V4's hooks to implement dynamic fees based on real-time data from price feed oracles. These oracles supply crucial market price information, allowing for precise adjustments of dynamic fees to maintain fair pricing and mitigate toxic arbitrage risks. This mechanism optimizes returns on investments for liquidity providers and significantly reduces the impact of impermanent loss by ensuring that pool prices reflect current market conditions.
+2. **Regulatory Compliance**: Designed with stringent AML and KYC frameworks, Levery enables financial institutions to participate in DeFi without compromising on compliance. This ensures that all operations on the platform meet global regulatory standards, making it a viable and attractive option for institutional investors.
+3. **Secure and Transparent Environment**: The use of comprehensive identity checks and permission management systems guarantees a secure trading environment where all participants are verified. This transparency builds trust and facilitates smoother transactions, attracting more institutional participants to the platform.
 
 ## Prerequisites
 
@@ -58,10 +57,10 @@ Levery brings several advantages to this simulation:
 
 ## Usage
 
-Rename named `.env.example` to `.env` in the root of your project and add your alchemy key:
+Rename named `.env.example` to `.env` in the root of your project and add your Ethereum Mainnet RPC url:
 
 ```bash
-ALCHEMY_KEY=your_alchemy_key_here
+RPC_URL=ethereum_mainnet_rpc_url_here
 ```
 
 Run the simulation:
