@@ -35,7 +35,7 @@ Levery brings several advantages to this simulation:
 
    ```bash
    git clone https://github.com/levery-org/levery-market-simulation.git
-   cd uniswap-chainlink-simulation
+   cd levery-market-simulation
    ```
 
 2. Install dependencies:
